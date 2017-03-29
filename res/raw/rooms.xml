@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<sql>
+		<query> CREATE TABLE rooms (_id INTEGER PRIMARY KEY UNIQUE,
+		                             room_no TEXT (6),
+		                                fp_id TEXT( 6 ) REFERENCES fingerprints ( _id ),
+		                                room_description TEXT( 200 )); 
+		</query>
+		<query> insert into rooms values (1,'2100','208','Room 2100 - Departments of computing security and IST'); </query>
+		<query> insert into rooms values (2,'2130','215','Room 2130 - Projects lab'); </query>
+		<query> insert into rooms values (3,'2145','218','Room 2145 - Interactive games and media office'); </query>
+		<query> insert into rooms values (4,'2160','218','Room 2160 - Networking lab'); </query>
+		<query> insert into rooms values (5,'2281','229','Room 2281 - Prof. T. Oh'); </query>
+		<query> insert into rooms values (6,'2315','238','Room 2315 - Brian May lecturer'); </query>
+		<query> insert into rooms values (7,'2330','245','Room 2330 - Telephony integration and realtime data lab'); </query>
+		<query> insert into rooms values (8,'2345','246','Room 2345 - P. Lutz'); </query>
+		<query> insert into rooms values (9,'2400','266','Room 2400 - Conference room'); </query>
+		<query> insert into rooms values (10,'2455','2126','Room 2455 - Classroom'); </query>
+		<query> insert into rooms values (11,'2500','2149','Room 2500 - Golisano conference room'); </query>
+		<query> insert into rooms values (12,'2521','275','Room 2521 - D. Simkins'); </query>
+		<query> insert into rooms values (13,'2525','276','Room 2525 - G. Goodman'); </query>
+		<query> insert into rooms values (14,'2530','276','Room 2530 - Streaming media lab'); </query>
+		<query> insert into rooms values (15,'2570','287','Room 2570 - I.G.M. lab'); </query>
+		<query> insert into rooms values (16,'2570','291','Room 2570 - I.M.M. lab'); </query>
+		<query> insert into rooms values (17,'2590','295','Room 2590 - Classroom'); </query>
+		<query> insert into rooms values (18,'2619','2123','Room 2619 - B. French'); </query>
+		<query> insert into rooms values (19,'2670','2106','Room 2670 - Open lab'); </query>
+		<query> insert into rooms values (20,'2670','2111','Room 2670 - Open lab'); </query>
+		<query> insert into rooms values (21,'2690','2102','Room 2690 - Classroom'); </query>
+	</sql>

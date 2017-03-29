@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">INSAR</string>
+    <string name="btn_go">START NAVIGATION!!</string>
+    <string name="txt_default">Scanning&#8230;</string>
+    <string name="menu_settings">Settings</string>
+    <string name="spnr_default">Click to select a destination</string>
+    <string name="aps">APs</string>
+    <string name="txt_db">"Database "</string>
+    <string name="txt_destination">Your Destination:&#160; </string>
+    <string name="txt_current_Location">Current Location:&#160;&#160; </string>
+    <string name="txt_building">&#160;Building:&#160; </string>
+    <string name="txt_building_no"></string>
+    <string name="txt_floor">&#160;Floor:&#160; </string>
+    <string name="txt_floor_no"> </string>
+    <string name="txt_you_r">&#160;You are:&#160; </string>
+    <string name="txt_loc"></string>
+</resources>

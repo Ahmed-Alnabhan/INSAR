@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<sql>
+		<query> CREATE TABLE fingerprints (_id TEXT( 6 ) PRIMARY KEY UNIQUE,
+		                                       building TEXT( 10 ),
+		                                       floor INTEGER,
+		                                       fp_description TEXT( 200 ));
+		</query>
+		<query> insert into fingerprints values ('201','70',2,'Corner - close to staircase 2962'); </query>
+		<query> insert into fingerprints values ('203','70',2,'Close to the corner'); </query>
+		<query> insert into fingerprints values ('206','70',2,'Close to room 2100 (departments of computing security and IST)'); </query>
+		<query> insert into fingerprints values ('208','70',2,'Room 2100 (departments of computing security and IST)'); </query>
+		<query> insert into fingerprints values ('210','70',2,'Close to room 2100 (departments of computing security and IST)'); </query>
+		<query> insert into fingerprints values ('2100','70',2,'Close to room 2690'); </query>
+		<query> insert into fingerprints values ('2102','70',2,'Room 2690'); </query>
+		<query> insert into fingerprints values ('2103','70',2,'Corner - close to staircase 2968 and room 2690'); </query>
+		<query> insert into fingerprints values ('2104','70',2,'Close to room 2670 (Open lab)'); </query>
+		<query> insert into fingerprints values ('2106','70',2,'Room 2670 (Open lab)'); </query>
+		<query> insert into fingerprints values ('2111','70',2,'Room 2670 (Open lab)'); </query>
+		<query> insert into fingerprints values ('2113','70',2,'Close to room 2670 (Open lab)'); </query>
+		<query> insert into fingerprints values ('2117','70',2,'The middle of corridor'); </query>
+		<query> insert into fingerprints values ('2121','70',2,'Close to room 2619 (B. French)'); </query>
+		<query> insert into fingerprints values ('2123','70',2,'Room 2619 (B. French)'); </query>
+		<query> insert into fingerprints values ('2124','70',2,'Between rooms 2619 (B. French) and 2455'); </query>
+		<query> insert into fingerprints values ('2126','70',2,'Room 2455'); </query>
+		<query> insert into fingerprints values ('2128','70',2,'At the intersection - Close to room 2455'); </query>
+		<query> insert into fingerprints values ('213','70',2,'Close to room 2130 (projects lab)'); </query>
+		<query> insert into fingerprints values ('2130','70',2,'Close to the intersection'); </query>
+		<query> insert into fingerprints values ('2133','70',2,'Close to corner'); </query>
+		<query> insert into fingerprints values ('2136','70',2,'At the Corner - Close to an exit'); </query>
+		<query> insert into fingerprints values ('2138','70',2,'Close to corner'); </query>
+		<query> insert into fingerprints values ('2140','70',2,'The middle of corridor'); </query>
+		<query> insert into fingerprints values ('2143','70',2,'Close to an intersection'); </query>
+		<query> insert into fingerprints values ('2147','70',2,'Close to room 2500 (Golisano conference room)'); </query>
+		<query> insert into fingerprints values ('2149','70',2,'Room 2500 (Golisano conference room)'); </query>
+		<query> insert into fingerprints values ('215','70',2,'Room 2130 (projects lab)'); </query>
+		<query> insert into fingerprints values ('2151','70',2,'Close to room 2500 (Golisano conference room)'); </query>
+		<query> insert into fingerprints values ('2153','70',2,'Intersection - vending machine - close to room 2400 (Conference room)'); </query>
+		<query> insert into fingerprints values ('217','70',2,'Close to rooms 2130, 2145, and 2160'); </query>
+		<query> insert into fingerprints values ('218','70',2,'Rooms 2145 and 2160'); </query>
+		<query> insert into fingerprints values ('220','70',2,'Close to rooms 2145 and 2160'); </query>
+		<query> insert into fingerprints values ('222','70',2,'Close to the corner'); </query>
+		<query> insert into fingerprints values ('224','70',2,'Corner - close to staircase 2963'); </query>
+		<query> insert into fingerprints values ('226','70',2,'Between corner and Room 2281 (prof. T. Oh)'); </query>
+		<query> insert into fingerprints values ('229','70',2,'Room 2281 (prof. T. Oh)'); </query>
+		<query> insert into fingerprints values ('231','70',2,'Between corner and Room 2281 (prof. T. Oh)'); </query>
+		<query> insert into fingerprints values ('233','70',2,'Corner - close to staircase 2960'); </query>
+		<query> insert into fingerprints values ('236','70',2,'Close to room 2315 (Brian May)'); </query>
+		<query> insert into fingerprints values ('238','70',2,'Room 2315 (Brian May)'); </query>
+		<query> insert into fingerprints values ('240','70',2,'Close to room 2315 (Brian May)'); </query>
+		<query> insert into fingerprints values ('243','70',2,'Close to room 2330 (Telephony integration and realtime data lab)'); </query>
+		<query> insert into fingerprints values ('245','70',2,'Room 2330 (Telephony integration and realtime data lab)'); </query>
+		<query> insert into fingerprints values ('246','70',2,'Room 2345 (P. Lutz)'); </query>
+		<query> insert into fingerprints values ('248','70',2,'Close to room 2345 (P. Lutz)'); </query>
+		<query> insert into fingerprints values ('251','70',2,'In the corridor'); </query>
+		<query> insert into fingerprints values ('253','70',2,'Close to the intersection'); </query>
+		<query> insert into fingerprints values ('257','70',2,'Close to the corner'); </query>
+		<query> insert into fingerprints values ('260','70',2,'Intersection '); </query>
+		<query> insert into fingerprints values ('266','70',2,'Room 2400 (Conference room)'); </query>
+		<query> insert into fingerprints values ('268','70',2,'Intersection - Close to room 2400 (Conference room)'); </query>
+		<query> insert into fingerprints values ('270','70',2,'Close to the Intersection'); </query>
+		<query> insert into fingerprints values ('273','70',2,'Close to room 2521 (D. Simkins)'); </query>
+		<query> insert into fingerprints values ('275','70',2,'Room 2521 (D. Simkins)'); </query>
+		<query> insert into fingerprints values ('276','70',2,'Rooms 2525 (G. Goodman) and 2530 (Streaming media lab)'); </query>
+		<query> insert into fingerprints values ('278','70',2,'Close to rooms 2525 (G. Goodman) and 2530 (Streaming media lab)'); </query>
+		<query> insert into fingerprints values ('281','70',2,'The middle of corridor'); </query>
+		<query> insert into fingerprints values ('285','70',2,'Close to room 2570 (IGM lab)'); </query>
+		<query> insert into fingerprints values ('287','70',2,'Room 2570 (IGM lab)'); </query>
+		<query> insert into fingerprints values ('291','70',2,'Room 2570 (IGM lab)'); </query>
+		<query> insert into fingerprints values ('294','70',2,'Corner - close to staircase 2967-Close to room 2570 (IGM lab)'); </query>
+		<query> insert into fingerprints values ('295','70',2,'Room 2590'); </query>
+		<query> insert into fingerprints values ('297','70',2,'Close to room 2590'); </query>
+	</sql>

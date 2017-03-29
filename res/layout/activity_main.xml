@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    <SurfaceView android:id="@+id/camPreview" 
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent" /> 
+    <com.Nabhan.insar.ArrowDirection
+      android:id="@+id/arrowDrawing"
+      android:layout_width="100dp"
+      android:layout_height="100dp"
+      android:layout_above="@+id/btnGo"
+      android:layout_marginTop="50dp"
+      android:layout_centerHorizontal="true"
+      android:adjustViewBounds="true"
+  />
+<!--     <ImageView -->
+<!--         android:id="@+id/arrowDrawing" -->
+<!--         android:layout_width="wrap_content" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:src="@drawable/arrow" /> -->
+    
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/btn_color"
+        android:textSize="18sp"
+        android:text="@string/spnr_default"
+        android:gravity="center" 
+        style="?android:attr/spinnerStyle"/>
+    
+    <TextView
+        android:id="@+id/chooseDest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/text_color"
+        android:layout_below="@+id/btnMenu"
+        android:textSize="16sp"
+        android:text="@string/txt_destination" />
+    
+    <TextView
+        android:id="@+id/theDestination"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/chooseDest"
+        android:layout_below="@+id/btnMenu"
+        android:textColor="@color/btn_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_loc" />
+        
+    <TextView
+        android:id="@+id/currentLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/chooseDest"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_current_Location" />
+    
+    <TextView
+        android:id="@+id/loc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/currentLocation"
+        android:layout_below="@+id/theDestination"
+        android:textColor="@color/btn_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_loc" />
+    
+    <TextView
+        android:id="@+id/building"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/currentLocation"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_building" />
+    
+    <TextView
+        android:id="@+id/buildingNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/building"
+        android:layout_below="@+id/loc"
+        android:textColor="@color/btn_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_building_no" />
+    
+    <TextView
+        android:id="@+id/floor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/building"
+        android:textColor="@color/text_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_floor" />
+    
+    <TextView
+        android:id="@+id/floorNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/floor"
+        android:layout_below="@+id/buildingNo"
+        android:textColor="@color/btn_color"
+        android:textSize="16sp"       
+        android:text="@string/txt_floor_no" /> 
+        
+    <TextView
+        android:id="@+id/bearing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/mainText"
+        android:textColor="@color/btn_color"
+        android:textSize="16sp"       
+        android:text="" /> 
+    
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnGo"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:text="@string/txt_default" />
+
+    <TextView
+        android:id="@+id/aps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"       
+        android:layout_above="@+id/btnGo"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:text="@string/aps" />
+    
+     
+   <EditText 
+       android:id="@+id/degrees"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_above="@+id/mainText"
+       android:layout_alignParentRight="true"
+       android:layout_marginLeft="16dp"
+       android:hint="degree"
+       android:inputType="numberDecimal" />
+   
+    <Button
+        android:id="@+id/btnGo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/btn_color"
+        android:textSize="20sp"
+        android:text="@string/btn_go" />
+
+    
+
+</RelativeLayout>
